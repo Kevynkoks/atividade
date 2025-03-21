@@ -1,0 +1,29 @@
+/******************************************************************************
+ 
+                             Online C Compiler.
+                 Code, Compile, Run and Debug C program online.
+ Write your code in this editor and press "Run" button to compile and execute it.
+ 
+ *******************************************************************************/
+ 
+ #include <stdio.h>
+ 
+ int main()
+ {
+     
+     float valor, gorjeta, conta, porcentagem;
+     
+      scanf("%f",&valor);
+      
+      scanf("%f",&porcentagem);
+      
+      gorjeta=((porcentagem / 100)*valor);
+      
+      conta= (valor + gorjeta);
+     
+     printf("conta:%.2f",conta);
+ 
+     return 0;
+ }
+ 
+ 
